@@ -1,0 +1,22 @@
+{
+    "name": "arko/serializer-extensions-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Kozhemyakin",
+            "email": "xenus.t@gmail.com"
+        }
+    ],
+    "require": {
+        "arko/serializer-extensions": "dev-master@dev",
+        "jms/serializer": "@dev",
+        "symfony/http-kernel": "~2.3",
+        "symfony/dependency-injection": "~2.3",
+        "symfony/config": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Arko\\SerializerExtensionsBundle\\": "src/"
+        }
+    }
+}
