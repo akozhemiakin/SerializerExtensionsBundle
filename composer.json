@@ -8,12 +8,13 @@
         }
     ],
     "require": {
-        "arko/serializer-extensions": "dev-master@dev",
-        "jms/serializer": "@dev",
+        "arko/serializer-extensions": "dev-master",
+        "jms/serializer-bundle": "~0.13",
         "symfony/http-kernel": "~2.3",
         "symfony/dependency-injection": "~2.3",
         "symfony/config": "~2.3"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "Arko\\SerializerExtensionsBundle\\": "src/"
